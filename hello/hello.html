@@ -1,0 +1,20 @@
+<html ng-app='myApp'>
+	<head>
+		<title>hello</title>
+	</head>
+	<body>
+		<div ng-controller="myCtrl">
+			<span ng-bind='name'></span>
+
+			<input type="text" ng-model="username">
+			<span>hello,{{username}}</span>
+			
+			<ul>
+				<li ng-repeat="x in names">{{x}}</li>
+			</ul>
+		</div>
+		
+	<script src="lib/angular.min.js"></script>
+	<script type="text/javascript" src="hello.js"></script>
+	</body>
+</html>

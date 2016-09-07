@@ -1,0 +1,17 @@
+.location{
+	margin-top: 150px; 
+}
+.error{
+	color:red;
+	border-color: red;
+    -webkit-box-shadow: 0 0 6px #f8b9b7;
+    -moz-box-shadow: 0 0 6px #f8b9b7;
+    box-shadow: 0 0 6px #f8b9b7;
+}
+.warning{
+	color: yellow;
+	border-color: yellow;
+    -webkit-box-shadow: 0 0 6px #f8b9b7;
+    -moz-box-shadow: 0 0 6px #f8b9b7;
+    box-shadow: 0 0 6px #f8b9b7;
+}
