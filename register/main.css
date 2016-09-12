@@ -1,0 +1,13 @@
+.location{
+	margin-top: 150px; 
+}
+
+p.success{
+    color: #3c763d;
+}
+.input_result{
+    position: relative;
+}
+.error{
+    color: #a10;
+}
