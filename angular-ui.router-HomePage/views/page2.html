@@ -1,0 +1,9 @@
+<div>
+	<h1 ng-model="title">{{title}}</h1>
+	<div>
+		解释:1.和ng-router不同的是，这里使用state表示路由状态，有2个参数，一个是路由的状态xxx.xxx
+		2.路由状态，这里存在一个继承关系，例如，子页面xiaomi.html嵌入到pageTab.html页面，那么/xiaomi继承了/pageTab，就是母模板和子模板的关系，当母模板激活的时候(访问)，子模板不会被激活，当子模板激活时，目模板一定会被激活，例如，我们可以使用直接访问子模板，假如使用超链接<a href="#/pageTab/xiaomi"></a>，这意味着状态是PageTab.Page1，xiaomi.html这个页面激活，同时pageTab.html也被激活。
+		3.$urlRouterProvider.when("", "/pageTab1");当路由引擎匹配的路径是空的时候，就跳该路径
+		$urlRouterProvider.otherwise("/pageTab");表示路由引擎匹配不到路径时，就跳该路径
+	</div>
+</div>

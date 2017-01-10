@@ -6,6 +6,9 @@ p.success{
 }
 .input_result{
     position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top: -25px;
 }
 .error{
     color: #a10;

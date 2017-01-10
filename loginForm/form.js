@@ -11,7 +11,9 @@ myApp.controller('loginCtrl',['$scope', function($scope){
 
 	$scope.submitForm = function(){
 		console.dir($scope.user);
-		$.ajax({
+		alert("success");
+		
+/*		$.ajax({
 			type:"post",
 			url:"",
 			dataType:"json",
@@ -19,7 +21,7 @@ myApp.controller('loginCtrl',['$scope', function($scope){
 			success:function(data){
 				alert("submit success!");
 			}
-		});
+		});*/
 
 	}
 }])

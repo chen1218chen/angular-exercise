@@ -1,0 +1,30 @@
+<div>
+	<h1 ng-model="vm.title">{{vm.title}}</h1>
+	<div>
+		Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.
+
+		Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+		Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+
+		Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+		Etiam porta sem malesuada magna mollis euismod.
+
+		Donec ullamcorper nulla non metus auctor fringilla.
+	</div>
+	<div>
+		<table border='1' cellpadding=0 cellspacing=0>
+		<tr>
+			<td>Name</td>
+			<td>Url</td>
+			<td>Country</td>
+		</tr>
+		<tr ng-repeat="a in array">
+			<td>{{a.Name}}</td>
+			<td>{{a.Url}}</td>
+			<td>{{a.Country}}</td>
+		</tr>
+	</table>
+	</div>
+</div>

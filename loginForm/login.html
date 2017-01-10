@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.3.5/css/bootstrap.min.css">
-<!-- 	<link rel="stylesheet" type="text/css" href="../lib/font-awesome/css/font-awesome.min.css"> -->
-	<link href="htt
-	p://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../lib/font-awesome/css/font-awesome.min.css">
+<!-- 	<link href="htt
+p://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link rel="stylesheet" type="text/css" href="form.css">
 	<title>登录表单</title>
 </head>
@@ -33,7 +33,7 @@
 												ng-maxlength="10" 
 												placeholder="用户名" 
 												required>
-										<p class="input_result" ng-class="{'fa fa-check success':loginForm.name.$valid&&loginForm.password.$touched,'fa fa-user error':loginForm.name.$invalid&&loginForm.name.$touched}"></p>
+										<p class="input_result" ng-class="{'fa fa-check success':loginForm.name.$valid&&loginForm.password.$touched,'fa fa-times error':loginForm.name.$invalid&&loginForm.name.$touched}"></p>
 										<P class="help-block has-error" ng-show="loginForm.name.$error.required&&loginForm.name.$touched">name不能为空</P>
 										<p ng-show="loginForm.name.$error.minlength" class="help-block has-error">name is too short</p>
 										<p class="help-block has-error" ng-show="loginForm.name.$error.maxlength">name is too long</p>
@@ -51,7 +51,7 @@
 												ng-maxlength="10"   
 												ng-pattern="/^[A-Za-z]{1}[0-9A-Za-z_]{2,29}$/" 
 												required>
-										<p class="input_result" ng-class="{'fa fa-check success':loginForm.password.$valid&&loginForm.password.$touched,'fa fa-user error':loginForm.password.$invalid
+										<p class="input_result" ng-class="{'fa fa-check success':loginForm.password.$valid&&loginForm.password.$touched,'fa fa-times error':loginForm.password.$invalid
 										&&loginForm.password.$touched}"></p>
 										<p class="help-block has-error" ng-show="loginForm.password.$error.required&&loginForm.password.$touched">password不能为空</p>
 										<p class="help-block has-error" ng-show="loginForm.password.$error.minlength">password is too short</p>

@@ -21,8 +21,9 @@
 									<label class="col-md-2 control-label">用户名：</label>
 									<div class="col-md-10">
 										<input type="text" class="form-control" name="name" ng-model="user.name" ng-class="{error:loginForm.name.$invalid&&!loginForm.name.$pristine}" ng-minlength="4" ng-maxlength="10"placeholder="用户名" required="">
+										<p class="help-block has-error" ng-show="loginForm.name.$touched&&loginForm.name.$error.required">name不能为空</p>
 										<p ng-show="loginForm.name.$error.minlength" class="help-block">name is too short</p>
-										<p class="help-block" ng-show="loginFOrm.name.$error.maxlength">name is too long</p>
+										<p class="help-block" ng-show="loginForm.name.$error.maxlength">name is too long</p>
 									</div>
 								</div>
 								<div class="form-group" >

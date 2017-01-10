@@ -1,0 +1,23 @@
+<div ui-view="header"></div>
+<div class="row">
+	<!-- sidebar -->
+	<div class="col-md-2">
+		<ul>
+			<li><span style="width:100px" ui-sref=".Page1" ui-sref-active="active"><a href="">Page-1</a></span></li>
+			<li><span style="width:100px" ui-sref=".Page2"><a href="">Page-2</a></span></li>
+			<li><span style="width:100px" ui-sref=".Page3"><a href="">Page-3</a></span></li>
+		</ul>
+	</div>
+	<!-- content -->
+	<div class="col-md-10">
+	     <!-- <div>
+	         <span style="width:100px" ui-sref=".Page1"><a href="">Page-1</a></span>
+	         <span style="width:100px" ui-sref=".Page2"><a href="">Page-2</a></span>
+	         <span style="width:100px" ui-sref=".Page3"><a href="">Page-3</a></span>
+	     </div> -->
+	     <div ui-view>欢迎光临</div> 
+	</div>
+</div>
+
+
+<div ui-view="footer"></div>
