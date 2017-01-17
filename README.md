@@ -1,5 +1,5 @@
 # angular-exercise
-angular学习中的一些小案例，随时更新，以便于积累
+angular，ui.router, requirejs学习中的一些集成小案例，随时更新，以便于积累，可用作Seed，跟大家分享
 ## 目录
 1. loginForm: 表单登陆案例，适用于系统用户的登陆   
 2. registerForm: 用户注册案例，包含对表单的各种验证（含正则表达式的验证）
